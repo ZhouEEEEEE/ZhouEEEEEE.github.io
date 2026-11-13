@@ -70,7 +70,7 @@ h1 { display: flex; align-items: baseline; gap: 18px; font-size: 38px; line-heig
 .bio ol, .news-content ol { list-style: decimal; padding-left: 1.25em; }
 .bio li + li, .news-content li + li { margin-top: .35em; }
 
-.portrait { width: min(100%, 180px); aspect-ratio: 4 / 5; align-self: center; flex-shrink: 0; overflow: hidden; border: 1px solid rgba(178, 200, 229, .19); border-radius: 12px; background: linear-gradient(150deg, rgba(145, 175, 215, .09), rgba(145, 175, 215, .025)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .04); }
+.portrait { width: min(100%, 180px); aspect-ratio: 4 / 5; align-self: center; flex-shrink: 0; }
 .portrait img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .portrait-placeholder { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; color: var(--muted); }
 .portrait-placeholder svg { width: 40px; height: 40px; stroke-width: .9; color: #8196b0; }
